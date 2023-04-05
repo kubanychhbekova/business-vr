@@ -1,38 +1,273 @@
-.App {
-  text-align: center;
-}
+ .index button{
+     box-shadow: -60px 200px 200px  40px #5141DA;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ }
+ /*busines*/
+ .busines h1{
+     font-weight: 700;
+     font-size: 58px;
+     line-height: 84px;
+     letter-spacing: 0.02em;
+     background: linear-gradient(89.83deg, #2563EB 0.11%, #D946EF 58.65%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.07);
+ }
+ .busines p{
+     font-weight: 500;
+     font-size: 15px;
+     line-height: 30px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+     color: #E5E7EB;
+     opacity: 0.8;
+     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.07);
+ }
+ /*busines*/
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/*service*/
+ .service p {
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 26px;
+     text-align: center;
+     color: #FFFFFF;
+     margin-bottom:   30px ;
+ }
+ .service h1{
+     font-weight: 700;
+     font-size: 42px;
+     line-height: 55px;
+     color: #FFFFFF;
+ }
+ .service h2{
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 31px;
+     color: #FFFFFF;
+     margin: 20px;
+ }
+ .card {
+     background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+     box-shadow: 0 22px 18px rgba(0, 0, 0, 0.05);
+     border-radius: 34px;;
+     padding: 20px;
+     margin-bottom: 20px;
+     position: relative;
+ }
+ .service img {
+     width: 74px;
+     height: 74px;
+     border-radius: 50%;
+ }
+ .card1 span{
+     background: rgba(29, 78, 216, 0.79);
+     filter: blur(100px);
+     position: absolute;
+     width: 173px;
+     height: 231px;
+     left: 30px;
+     top: -50px;
+ }
+ .card2 span {
+     position: absolute;
+     width: 251px;
+     height: 340px;
+     left: 60px;
+     top: -50px;
+     background: rgba(217, 70, 239, 0.43);
+     filter: blur(100px);
+ }
+ .card3 span{
 
-.App-link {
-  color: #61dafb;
-}
+     position: absolute;
+     width: 151px;
+     height: 340px;
+     right: 20px;
+     top: -40px;
+     background: #5141DA;
+     filter: blur(100px);
+ }
+ .card4 span{
+     position: absolute;
+     width: 151px;
+     height: 240px;
+     left: -20px;
+     background: rgba(217, 70, 239, 0.43);
+     filter: blur(100px);
+ }
+ .card5 span{
+position: absolute;
+     width: 101px;
+     height: 140px;
+left: -100px;
+     top: 40px;
+     background: #5141DA;
+     filter: blur(100px);
+ }
+ .card6 span{
+position: absolute;
+     width: 100px;
+     height: 349px;
+     right: -20px;
+     background: rgba(29, 78, 216, 0.79);
+     filter: blur(100px);
+ }
+/*service*/
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+ /*project*/
+ .project h1{
+     font-weight: 700;
+     font-size: 42px;
+     line-height: 55px;
+
+     color: #FFFFFF;
+
+ }
+ .project span:nth-child(1){
+     position: absolute;
+     width: 150px;
+     height: 340px;
+    left: 23%;
+     background: rgba(29, 78, 216, 0.79);
+     filter: blur(100px);
+     transform: matrix(-1, 0, 0, 1, 0, 0);
+ }
+ .project span:nth-child(2){
+     position: absolute;
+     width: 150px;
+     height: 340px;
+    right: 24%;
+     background: rgba(29, 78, 216, 0.79);
+     filter: blur(100px);
+     transform: matrix(-1, 0, 0, 1, 0, 0);
+ }
+ .project p{
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 26px;
+     color: #FFFFFF;
+     padding: 20px 0;
+ }
+ /*project*/
+
+/*team*/
+ .team h1{
+     font-weight: 700;
+     font-size: 42px;
+     color: #FFFFFF;
+
+ }
+ .team p{
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 21px;
+     text-align: center;
+     color: #FFFFFF;
+     padding:  20px 0;
+ }
+ .team h3{
+     font-weight: 400;
+     font-size: 16px;
+     letter-spacing: 0.03em;
+     color: #FFFFFF;
+     padding: 10px 0;
+ }
+ .team h2{
+     font-weight: 500;
+     font-size: 28px;
+     color: #FFFFFF;
+
+ }
+ .team--card{
+     background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+     box-shadow: 0 22px 18px rgba(0, 0, 0, 0.05);
+     border-radius: 34px;
+     padding: 40px 60px;
+     margin: 15px;
+     position: relative;
+ }
+ .icon {
+     width: 24px;
+     height: 24px;
+     cursor: pointer;
+     color: #2563EB;
+ }
+ .team1 span{
+     position: absolute;
+     width: 159px;
+     height: 304px;
+     top: -10px;
+     left: -40%;
+     background: rgba(217, 70, 239, 0.43);
+     filter: blur(100px);
+ }
+ .team3 span {
+     position: absolute;
+     width: 159px;
+     height: 304px;
+     top: -40px;
+
+     background: rgba(29, 78, 216, 0.79);
+     filter: blur(100px);
+ }
+/*team*/
+
+
+ /*search*/
+ .search h1{
+     font-weight: 700;
+     font-size: 42px;
+     color: #FFFFFF;
+ }
+ .search p{
+     font-weight: 400;
+     font-size: 16px;
+     color: #FFFFFF;
+     opacity: 0.8;
+     padding:  20px 0;
+ }
+ .search{
+     background: linear-gradient(180deg, rgba(254, 254, 255, 0.0145) 0%, rgba(255, 255, 255, 0.02) 100%);
+     box-shadow: 0 22px 18px rgba(0, 0, 0, 0.05);
+     border-radius: 34px;
+     padding:30px 0;
+     margin: 50px 0;
+     position: relative;
+ }
+ .search input{
+     width: 840px;
+     border-radius: 34px;
+ }
+ .search button{
+     border-radius: 34px;
+ }
+ .search span{
+     position: absolute;
+     width: 459px;
+     height: 104px;
+
+
+     background: rgba(29, 78, 216, 0.79);
+     filter: blur(100px);
+ }
+ /*search*/
+
+.footer--top{
+ margin: 10px 0 70px 0;
+}
+.footer{
+    position: relative;
+}
+.span{
+    width: 100%;
+    height: 2px;
+    background: #969696;
+    opacity: 0.2;
+
+    position: absolute;
+
+}
+.footer-bottom{
+    padding-top:  50px;
 }
